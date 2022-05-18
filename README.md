@@ -4,7 +4,7 @@ This is a simulation platform to simulate the pedestrians movement under differe
 JDK 1.8
 ## how to use
 run the **run()** method under com.pedes.simulation.panel
-'''Java
+```java
     public void run() {
         int pedes_num = 3;
         rect pedes_rect = new rect(10, 10, new vecter(0, 0));
@@ -15,5 +15,4 @@ run the **run()** method under com.pedes.simulation.panel
         scene scene = this.scene_generator.random_generator(pedes_num, pedes_rect, obstacle_list, destination_rect);
         scene.run();
     }
-
-'''
+```
